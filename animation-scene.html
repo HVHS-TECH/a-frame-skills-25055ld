@@ -8,9 +8,9 @@
         <a-scene>
             <!-- Set the sky -->
             <a-sky color="lightblue"></a-sky>
-
-        </a-scene>
-         <a-cone color="limegreen" radius-bottom=".5" radius-top="3"
+ 
+ 
+            <a-cone color="blue" radius-bottom=".5" radius-top="3"
                 position="-8 5 -15" height="3"
                 animation="
                 property: rotation;
@@ -19,6 +19,23 @@
                 loop: true;
                 dir: alternate;
                 "
+
+            <a-cone color="red" radius-bottom=".5" radius-top="3"
+                position="-8 5 -15" height="3"
+                animation="
+                property: rotation;
+                from: 0 90 0;
+                to: 0 270 45;
+                loop: true;
+                dir: alternate;
+                "
+
+
+
+
+        </a-scene>
+
+        
             ></a-cone>
     </body>
 </html>
